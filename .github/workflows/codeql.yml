@@ -79,8 +79,7 @@ jobs:
     - if: matrix.build-mode == 'manual'
       shell: bash
       run: |
-        make bootstrap
-        make release
+        make -C CWE-120/src
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
