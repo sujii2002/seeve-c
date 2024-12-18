@@ -80,6 +80,18 @@ jobs:
       shell: bash
       run: |
         make -C CWE-120/src
+        make -C CWE-119/src
+        make -C CWE-125/src
+        make -C CWE-134/src
+        make -C CWE-170/src
+        make -C CWE-190/src
+        make -C CWE-193/src
+        make -C CWE-195/src
+        make -C CWE-197/src
+        make -C CWE-20/src
+        make -C CWE-222/src
+        make -C CWE-369/src
+        make -C CWE-401/src
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
