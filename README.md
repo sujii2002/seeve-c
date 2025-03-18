@@ -1,2 +1,2 @@
 # seeve-c
-c vulnerable app
+c vulnerable app - test
